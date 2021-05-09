@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso de camiones</title>
+    <!--FONT Chakra Petch-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500&display=swap" rel="stylesheet">
+<!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<!--CUSTOM CSS-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class = "nav-main">
+            <img src="imagenes/logo_camineros.jpeg" alt="Camioneros LOGO" class = "nav-brand">
+            <ul class="nav-menu">
+                <li>
+                    <a href="">Registre los camiones</a>
+            </ul>
+            <ul class="nav-menu-right">
+                <a href="pagina_inicio.html">
+                    <i class="fas fa-times-circle"></i>
+                </a>
+            </ul>
+        </nav>
+        <hr>
+    <section class="form-ingreso_camiones">
+        <label for="password">Ingrese la marca del camion</label>
+        <input class="form-datos" type="string" name="marca" id="marca" placeholder="Ingrese la marca del camion">
+        <label for="password">Ingrese el modelo del camion</label>
+        <input class="form-datos" type="string" name="modelo" id="modelo" placeholder="Ingrese el modelo del camion">
+        <label for="password">Ingrese la capacidad de carga</label>
+        <input class="form-datos" type="string" name="capacidad" id="capacidad" placeholder="Ingrese la capacidad de carga">
+        <p>Antes de continuar, asegurese de que los datos ingresados son correctos</p>
+        <input class="btn-ingreso_camiones" type="submit" value="GUARDAR DATOS">
+    </section>
+</body>
+</html>
